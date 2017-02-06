@@ -1,0 +1,14 @@
+{
+    "sessions": [
+        { 
+            "title": "Chicken Dinner",
+            "speaker": "Chicken Little",
+            "location": "Some Place Here"
+         },
+         {
+             "title": "Winner Winner",
+             "speaker": "Some Guy",
+             "location": "Whatevs"
+         }
+    ]
+}

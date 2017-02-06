@@ -1,14 +1,16 @@
 {
     "sessions": [
-        { 
+        {
             "title": "Chicken Dinner",
             "speaker": "Chicken Little",
-            "location": "Some Place Here"
+            "location": "Some Place Here",
+            "votes": 13
          },
          {
              "title": "Winner Winner",
              "speaker": "Some Guy",
-             "location": "Whatevs"
+             "location": "Whatevs",
+              "votes": 45
          }
     ]
 }

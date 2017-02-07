@@ -12,6 +12,9 @@ This talk by [Glen Smith](http://blogs.bytecode.com.au/glen/) given at the [Canb
 * Ships new version on high churn but with backward compatability
 * It will save you a ton of time, and give you a more consistent and beautiful UX
 
+## Real Application Demo
+
+* [Demonstrate PuppyMail](http://blogs.bytecode.com.au/projects/puppymail)  ([GitHub Source](https://github.com/glenasmith/puppymail))
 
 ## Coding Script
 

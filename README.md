@@ -30,6 +30,7 @@ This talk by [Glen Smith](http://blogs.bytecode.com.au/glen/) given at the [Canb
         <p-column field="title" header="Title"></p-column>
         <p-column field="speaker" header="Speaker"></p-column>
         <p-column field="location" header="Location"></p-column>
+        <p-column field="votes" header="Votes"></p-column>
     </p-dataTable>
 
 * Make a column sortable, add an attribue to the p-column:

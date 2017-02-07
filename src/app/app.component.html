@@ -1,4 +1,4 @@
-<h1>CJUG Demo</h1>
+<h1>CJUG Talk Topics 2017</h1>
 
   <p-dataTable [value]="talks" *ngIf="talks" [paginator]="true" [rowsPerPageOptions]="[5,10,20]" [reorderableColumns]="true"
                [selectionMode]="'single'" [selection]="selectedTalk" (onRowSelect)="onSessionSelection(evt)">
@@ -10,10 +10,13 @@
 
 <p-growl [value]="messages"></p-growl>
 
+
+<p-chart type="doughnut" [data]="chartData"></p-chart>
+
+
 <!--
 
 <p-gmap [options]="mapOptions" [overlays]="mapOverlays" [style]="{'width':'100%','height':'310px'}"></p-gmap>
-
-<p-chart type="doughnut" [data]="chartData"></p-chart>
 -->
+
 

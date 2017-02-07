@@ -25,7 +25,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {
 
     this.http.get('./assets/talks.json').subscribe(r => {
-      console.log(r);
       this.talks = r.json().sessions;
     });
   }

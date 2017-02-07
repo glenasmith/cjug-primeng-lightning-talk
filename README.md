@@ -22,68 +22,85 @@ This talk by [Glen Smith](http://blogs.bytecode.com.au/glen/) given at the [Canb
 
 * Add to your `app.module.ts`:
 
+```
     import {DataTableModule,SharedModule} from 'primeng/primeng';
+```
 
 * Then to your page markup
 
+```
     <p-dataTable [value]="talks" *ngIf="talks">
         <p-column field="title" header="Title"></p-column>
         <p-column field="speaker" header="Speaker"></p-column>
         <p-column field="location" header="Location"></p-column>
         <p-column field="votes" header="Votes"></p-column>
     </p-dataTable>
+```
 
 * Make a column sortable, add an attribue to the p-column:
 
+```
      sortable="true"
+```
 
 * Make a column filterable:
 
+```
     filter='true' filterMatchMode='startsWith'
-
-
-* Add pagination:
-
-    import {PaginatorModule} from 'primeng/primeng';
+```
 
 * Enhance the p-dataTable with some options:
 
+```
     [paginator]="true" [rowsPerPageOptions]="[5,10,20]"
+```
 
 * Add a column reorder
 
+```
     [reorderableColumns]="true" 
-
-* And a selection:
-
-    [selectionMode]="'single'"
-
-* Add an events
-
-    (onRowSelect)="onSessionSelect()"
+```
 
 * Resize to show responsiveness
 
     Hit F12
 
+* And a selection:
+
+```
+    [selectionMode]="'single'"
+```
+
+* Add an events
+
+```
+    (onRowSelect)="onSessionSelect()"
+```
+
+
 ## Getting Growls
 
 * Add the growl module
 
+```
     import {GrowlModule} from 'primeng/primeng';
+```
 
 * Add messages to your page
 
+```
     <p-growl [value]="messages"></p-growl>
+```
 
 * Add code to your backing bean
 
+```
     import {Message} from 'primeng/primeng';
 
     messages: Message[] = [];
 
     this.messages.push({severity:'info', summary:'Info Message', detail:'PrimeNG rocks'});
-
+```
 
 
 ## Grabbing A Chart
@@ -91,13 +108,15 @@ This talk by [Glen Smith](http://blogs.bytecode.com.au/glen/) given at the [Canb
 
 * Import the library
 
+```
     import {ChartModule} from 'primeng/primeng';
+```
 
 * Add the markup:
 
+```
     <p-chart type="doughnut" [data]="chartData"></p-chart>
-
-* Construct the data:
+```
 
 
 

@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {DataTableModule,SharedModule,GrowlModule,ChartModule,GMapModule,PaginatorModule} from 'primeng/primeng';
+import {DataTableModule,SharedModule,GrowlModule,PanelModule,ChartModule,GMapModule,PaginatorModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -19,6 +19,7 @@ import {DataTableModule,SharedModule,GrowlModule,ChartModule,GMapModule,Paginato
     SharedModule,
     GrowlModule,
     GMapModule,
+    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]

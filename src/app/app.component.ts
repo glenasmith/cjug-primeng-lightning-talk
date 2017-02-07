@@ -11,32 +11,10 @@ import {Message} from 'primeng/primeng';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
+
   talks : Array<Talk>;
   selectedTalk : any;
   messages: Message[] = [];
-
-  mapOptions: any;
-
-  mapOverlays: any[];
-
-  chartData = {
-    labels: ['A', 'B', 'C'],
-    datasets: [
-      {
-        data: [300, 50, 100],
-        backgroundColor: [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ],
-        hoverBackgroundColor: [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ]
-      }]
-  };
 
 
   constructor(private http: Http) {
@@ -55,9 +33,7 @@ export class AppComponent implements OnInit {
 
   public onSessionSelection(evt :any) {
 
-    console.log(evt);
-    console.log(this.selectedTalk);
-    this.messages.push({severity:'info', summary:'Info Message', detail:'PrimeNG rocks'});
+    this.messages.push({severity:'info', summary:'Want to Voluteer?', detail:'Do It Today!'});
 
   }
 

@@ -1,16 +1,70 @@
 {
     "sessions": [
         {
-            "title": "Chicken Dinner",
-            "speaker": "Chicken Little",
-            "location": "Some Place Here",
+            "title": "Kotlin or AltJVM",
+            "speaker": "Your Name Here",
+            "location": "Peoplebank Canberra",
             "votes": 13
          },
          {
-             "title": "Winner Winner",
-             "speaker": "Some Guy",
-             "location": "Whatevs",
-              "votes": 45
+             "title": "Scala What's New",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 5
+         },
+         {
+             "title": "Mobile Development",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 15
+         },
+         {
+             "title": "Microservices",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 20
+         },
+         {
+             "title": "Internet of Things",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 9
+         },
+         {
+             "title": "DevOps",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 25
+         },
+         {
+             "title": "Big Data",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 12
+         },
+         {
+             "title": "Cloud with AWS/Google/Azure",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 18
+         },
+         {
+             "title": "Reactive Programming",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 9
+         },
+         {
+             "title": "Soft Skills",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 5
+         },
+         {
+             "title": "Agile / Case Study",
+             "speaker": "Your Name Here",
+             "location": "Peoplebank Canberra",
+              "votes": 12
          }
     ]
 }
